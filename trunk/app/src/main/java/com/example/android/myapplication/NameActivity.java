@@ -17,7 +17,7 @@ public class NameActivity extends Activity implements OnClickListener {
     EditText etName;
     Button btnOK;
     ImageView imageView;
-    int backgroundImageId;   
+    int backgroundImageId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
