@@ -23,6 +23,7 @@
                 <action android:name="com.example.android.testview.nevermind" />
                 <action android:name="com.example.android.testview.pinkfl" />
 
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
