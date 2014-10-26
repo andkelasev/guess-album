@@ -43,13 +43,13 @@ public class ViewStorage /*extends Activity*/{
         btnName3.setLayoutParams(rw);
 
         btnName4=(ImageButton) activity.findViewById(R.id.imageButton21);
-
         btnName4.setBackgroundResource(R.drawable.pink_floyd);
         btnName4.setLayoutParams(rw);
 
         listViews.add(btnName1);
         listViews.add(btnName2);
         listViews.add(btnName3);
+        listViews.add(btnName4);
     }
 
     public ArrayList<?super View> setViews(){
