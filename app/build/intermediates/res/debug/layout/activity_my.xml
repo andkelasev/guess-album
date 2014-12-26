@@ -5,7 +5,8 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:id="@+id/parentTableLayout">
-    <TableRow>
+    <TableRow
+        android:id="@+id/tableRow1">
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,7 +24,8 @@
             android:layout_marginLeft="10dp"
             android:id="@+id/imageButton13" />
     </TableRow>
-    <TableRow>
+    <TableRow
+        android:id="@+id/tableRow2">
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,4 +40,4 @@
         android:text="Your name is ">
     </TextView>
 </TableLayout>
-<!-- From: file:/C:/Users/admin-pc/AndroidStudioProjects/guessmovie/app/src/main/res/layout/activity_my.xml -->
+<!-- From: file:/C:/android_dev/guess-album/app/src/main/res/layout/activity_my.xml -->
